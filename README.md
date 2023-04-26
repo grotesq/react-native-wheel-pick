@@ -1,6 +1,21 @@
 
 # [react-native-wheel-pick](https://www.npmjs.com/package/react-native-wheel-pick)
 
+## Fork 요약
+
+`android/build.gradle`의 버전 수정이 필요해 포크한 후 수정했습니다.
+`package.json`에 다음 내용을 추가한 후 사용하세요.
+
+```json
+{
+  "dependencies": {
+    "react-native-wheel-pick": "git+https://github.com/grotesq/react-native-wheel-pick.git"
+  }
+}
+```
+
+---
+
 React native wheel picker for both iOS and android. (Support DatePicker)
 
 This is not original but inspired by [react-native-wheel-datepicker](https://github.com/pinguinjkeke/react-native-wheel-datepicker)
